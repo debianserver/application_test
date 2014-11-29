@@ -4,7 +4,7 @@ lock '3.3.3'
 server '46.48.230.44', port: 1985, roles: [:web, :app, :db], primary: true
 
 set :application, 'application_test'
-set :repo_url, 'git@example.com:debianserver/application_test.git'
+set :repo_url, 'git@github.com:debianserver/application_test.git'
 set :user, 'deploy'
 set :puma_threads, [4, 16]
 set :puma_workers, 0
