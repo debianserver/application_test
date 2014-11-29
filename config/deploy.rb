@@ -39,17 +39,17 @@ set :puma_preload_app, true
 set :puma_worker_timeout, nil
 set :puma_init_active_record, false
 
-set :scm, :git
-set :branch, :master
-set :format, :pretty
-set :log_level, :debug
-set :keep_releases, 5
+#set :scm, :git
+#set :branch, :master
+#set :format, :pretty
+#set :log_level, :debug
+#set :keep_releases, 5
 
 # Default value for :linked_files is []
-set :linked_files, %w{config/database.yml}
+#set :linked_files, %w{config/database.yml}
 
 # Default value for linked_dirs is []
-set :linked_dirs, %w{ bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system }
+#set :linked_dirs, %w{ bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system }
 
 # Default value for default_env is {}
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
